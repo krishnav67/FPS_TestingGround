@@ -14,6 +14,7 @@ class FPS_TESTINGGROUND_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
 
-		UPROPERTY(EditInstanceOnly, Category = "Petrol Point")
-		TArray<AActor*> PetrolPointsCPP;
+public: //TODO remove or Create get
+	UPROPERTY(EditInstanceOnly, Category = "Petrol Point")
+	TArray<AActor*> PetrolPointsCPP;
 };
